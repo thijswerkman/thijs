@@ -1,0 +1,8 @@
+a=input()
+for b in 200,100,50,20,10,5,2,1:
+ c=0
+ while a>=b:
+  c=c+1
+  a=a-b
+ if c>0:
+  print c,b
